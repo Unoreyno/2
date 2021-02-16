@@ -27,8 +27,9 @@ public class App {
         }else{
             System.out.println("Zły znak matematyczny");
 
-            Scanner.close();
+        
         }
         
+        Scanner.close();
     } 
 }
