@@ -56,6 +56,11 @@ public class App {
         }
         Scanner.close();
         
+        /*
+
+        właśnie to dodałem
+
+        */
 
     
     } 
