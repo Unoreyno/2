@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class App {
+public class kal {
     public static void main(String[] args) throws Exception {
         
 
@@ -10,7 +10,7 @@ public class App {
         int a = Scanner.nextInt();
 
         Scanner.nextLine();
-        System.out.println("podaj znak "+", "-", "/", "*" lub "%"");
+        System.out.println("podaj znak +, -, /, * lub %");
         String znak = Scanner.nextLine();
 
         System.out.println("podaj liczbe b");
@@ -22,7 +22,7 @@ public class App {
                 System.out.println(a+" + "+b+" = "+(a+b));
             break;
             case "-":
-                System.out.println(a+" - "+b+" = "+(a+b));
+                System.out.println(a+" - "+b+" = "+(a-b));
             break;
             case "*":
                 System.out.println(a+" * "+b+" = "+(a*b));
@@ -34,10 +34,12 @@ public class App {
             break;
             default:
 
-                System.out.println("Co innego")
+                System.out.println("Co innego");
             break;
         }
         
         Scanner.close();
+        
+        
     } 
 }

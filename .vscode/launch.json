@@ -4,6 +4,15 @@
     // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
     "version": "0.2.0",
     "configurations": [
+
+        {
+            "type": "java",
+            "name": "Launch kal",
+            "request": "launch",
+            "mainClass": "kal",
+            "projectName": "2_b41bd7a8",
+            "console": "externalTerminal"
+        },
         {
             "type": "java",
             "name": "Launch Current File",
