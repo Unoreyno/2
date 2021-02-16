@@ -9,25 +9,17 @@ public class App {
         System.out.println("podaj liczbe a");
         int a = Scanner.nextInt();
         
-        Scanner.nextLine();
-        System.out.println("podaj znak matematyczny + lub -");
-        String z = Scanner.nextLine();
-
-        System.out.println("podaj liczbe b");
-        int b = Scanner.nextInt();
-
-        
-        
-        
-       
-        if(z.equals("+")){
-            System.out.println(a+" + "+b+" = "+(a+b));
-        }else if(z.equals("-")){
-            System.out.println(a+" - "+b+" = "+(a-b));
-        }else{
-            System.out.println("Zły znak matematyczny");
-
-        
+        String nr = +;
+        switch(nr){
+            case "+":
+                System.out.println("Plus");
+            break;
+            case "-":
+                System.out.println("Minus");
+            break;
+            default:
+                System.out.println("Co innego")
+            break;
         }
         
         Scanner.close();
